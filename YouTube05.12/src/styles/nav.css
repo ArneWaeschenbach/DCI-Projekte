@@ -1,0 +1,42 @@
+html header nav {
+  background-color: black;
+}
+html header nav ul {
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
+html header nav ul div {
+  width: 40px;
+  height: 40px;
+  background-image: url(24.jpg);
+  position: relative;
+  background-position: center;
+  background-size: 80px;
+  border-radius: 50%;
+  right: 50px;
+  top: 5px;
+}
+html header nav img {
+  width: 100px;
+  height: 50px;
+}
+html header nav input::placeholder {
+  color: gray;
+}
+html header nav li input {
+  margin-top: 15px;
+  border-radius: 25px;
+  background-color: black;
+  height: 30px;
+  width: 300px;
+  border-color: gray;
+}
+html header nav li a {
+  color: white;
+  display: inline-block;
+  padding: 5px #Bl;
+  padding-padding-left: 10px;
+}
+
+/*# sourceMappingURL=nav.css.map */

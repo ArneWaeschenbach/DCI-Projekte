@@ -1,0 +1,50 @@
+html {
+  background-color: black;
+}
+html nav {
+  font-family: sans-serif;
+}
+html nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+html nav ul li {
+  position: relative;
+  display: inline-block;
+  left: 40px;
+}
+html nav ul li a {
+  color: lightgray;
+  text-decoration: none;
+  font-weight: 530;
+}
+html .movie {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  row-gap: 100px;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+html .movie div {
+  position: relative;
+}
+html .movie div div {
+  position: absolute;
+}
+html .movie div div b {
+  color: white;
+  font-weight: 100;
+}
+html .movie div div b p {
+  color: lightgray;
+  font-size: small;
+}
+html .movie img {
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=vidio.css.map */

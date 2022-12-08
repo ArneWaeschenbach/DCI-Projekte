@@ -1,0 +1,55 @@
+html{
+    header{
+    nav{  background-color:black;
+        
+        
+    ul{justify-content: space-between;
+        display: flex;
+        list-style: none;
+
+        div{   
+            // pofielbild
+            width: 40px;
+            height: 40px;
+            background-image: url(24.jpg);
+            position: relative;
+            background-position: center;
+            background-size: 80px;
+            border-radius: 50%;
+            right: 50px;
+            top: 5px;
+        }
+
+        };
+        img{
+            width:100px;
+            height: 50px;
+        }
+        input::placeholder{
+            color: gray;
+            
+        }
+
+          
+        li input {
+            margin-top: 15px;
+            border-radius: 25px;
+            background-color:black;
+            height: 30px;
+            width: 300px;
+            border-color: gray;
+        }
+        li a{  color: white;
+             
+            display: inline-block;
+            padding: 5px 
+            #Bl{
+                padding-left: 10px;
+                // Das solte nicht so funksoniren tut es aber !!
+            }
+        
+
+        }
+    }
+}
+}

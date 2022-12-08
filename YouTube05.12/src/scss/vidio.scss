@@ -1,0 +1,72 @@
+html{
+    background-color: black;
+
+
+
+
+
+
+
+
+     nav{font-family: sans-serif;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            
+            
+            
+            
+            li{position: relative;
+                display: inline-block;
+                left:40px ;
+                
+                a{
+                    color:lightgray;
+                    text-decoration: none;
+                    font-weight: 530;
+                }
+            }
+        }
+
+
+        
+
+        
+     }
+
+     .movie{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 200px);
+         row-gap: 100px;
+         column-gap: 10px;
+         justify-content: center;
+         align-items: center;
+         div{
+            position: relative;
+            div{
+                position: absolute;
+                b{
+                    color: white;
+                    font-weight: 100;
+                    p{
+                        color: lightgray;
+                        font-size: small;
+                    }
+
+                }
+            }
+         }
+
+         
+         
+
+         img{
+            width: 200px;
+            height: 120px;
+            border-radius: 10px;
+         }
+    
+} 
+
+}         

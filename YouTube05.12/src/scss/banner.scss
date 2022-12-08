@@ -1,0 +1,54 @@
+html{
+
+main{
+    div{
+       img{
+            // banner
+           width: 100%;
+         }
+       }
+  
+  
+   div{
+       .PB{
+           width: 4rem;
+           height: 4rem;
+           background-image: url(24.jpg);
+           position: relative;
+           background-position: center;
+           background-size: 80px;
+           border-radius: 50%;
+       }
+       
+       .daten{
+           position: relative;
+           left: 80px;
+           bottom: 4rem;
+
+           li{
+               list-style: none;
+               color:lightgray;
+
+               h1{
+                   color: white;
+               }
+           }
+       }
+       .abo{
+           position: relative;
+           float: right;
+           bottom: 120px;
+           
+           
+       }
+       .abobutton{
+           background-color: rgb(70, 70, 70);
+           border-radius: 25px;
+           height: 35px;
+           width: 100px;
+           color: lightgray;
+       }
+    }
+}
+    
+}
