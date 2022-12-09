@@ -1,0 +1,47 @@
+section .sidebar {
+  z-index: 2;
+  position: absolute;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+}
+section .sidebar ul li {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: lightgray;
+  padding-left: 40px;
+}
+section h1 {
+  font-size: 22px;
+  color: red;
+  text-align: center;
+  user-select: none;
+}
+section #CB {
+  display: none;
+  position: absolute;
+}
+section .CB {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.3rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: lightgray;
+}
+section .menu {
+  font-size: 3rem;
+  line-height: 1.4rem;
+}
+section #CB:checked ~ .sidebar {
+  display: block;
+  left: 0px;
+}
+
+/*# sourceMappingURL=seitbar.css.map */
