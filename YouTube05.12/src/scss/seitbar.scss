@@ -1,56 +1,44 @@
- section{
-    
+section {
+  .sidebar {
+    z-index: 2;
 
-    .sidebar{ z-index: 2;
-        
-        position: absolute;
-        left: -250px;
-        width: 250px;
-        height: 100%;
-        background-color:black;
-            ul{
-                li{  display: block;
-                    height: 100%;
-                    width: 100%;
-                    line-height: 65px;
-                    font-size: 20px;
-                    color: lightgray;
-                    padding-left: 40px;
-                    
-                }
-            }
-        
-    }
-    h1{
-        font-size: 22px;
-        color: red;
-        text-align: center;
-        user-select: none;
-    }
-    #CB{
-        display: none;
-        position: absolute;
-    }
-    .CB{
-        
-        flex-direction: column;
-        justify-content: space-between;
-        width: 2rem;
-        height: 1.3rem;
-        position: absolute;
-        top: 1rem;
-        left: 1rem;
-        color: lightgray;
-    }
-    .menu {
-        font-size: 3rem;
-        line-height: 1.4rem;
-      }
-      #CB:checked~.sidebar {
+    position: absolute;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    ul {
+      li {
         display: block;
-        left: 0px;
-        
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 20px;
+        color: lightgray;
+        padding-left: 40px;
       }
-      
-      
- }
+    }
+  }
+}
+#CB {
+  display: none;
+}
+.CB {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.3rem;
+  position: absolute;
+  top:1% ;
+left: 0.5%;
+  color: lightgray;
+  
+}
+.menu {
+  font-size: 3rem;
+  line-height: 1.4rem;
+}
+#CB:checked ~ .sidebar {
+  display: block;
+  left: 0px;
+}

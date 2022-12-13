@@ -15,31 +15,28 @@ section .sidebar ul li {
   color: lightgray;
   padding-left: 40px;
 }
-section h1 {
-  font-size: 22px;
-  color: red;
-  text-align: center;
-  user-select: none;
-}
-section #CB {
+
+#CB {
   display: none;
-  position: absolute;
 }
-section .CB {
+
+.CB {
   flex-direction: column;
   justify-content: space-between;
   width: 2rem;
   height: 1.3rem;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 1%;
+  left: 0.5%;
   color: lightgray;
 }
-section .menu {
+
+.menu {
   font-size: 3rem;
   line-height: 1.4rem;
 }
-section #CB:checked ~ .sidebar {
+
+#CB:checked ~ .sidebar {
   display: block;
   left: 0px;
 }

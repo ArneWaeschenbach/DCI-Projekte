@@ -4,7 +4,11 @@ html main {
 html main div img {
   width: 100%;
 }
-html main div .PB {
+html main .move {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+html main .move .PB {
   width: 4rem;
   height: 4rem;
   background-image: url(24.jpg);
@@ -13,24 +17,24 @@ html main div .PB {
   background-size: 80px;
   border-radius: 50%;
 }
-html main div .daten {
+html main .move .daten {
   position: relative;
   left: 80px;
   bottom: 4rem;
 }
-html main div .daten li {
+html main .move .daten li {
   list-style: none;
   color: lightgray;
 }
-html main div .daten li h1 {
+html main .move .daten li h1 {
   color: white;
 }
-html main div .abo {
+html main .move .abo {
   position: relative;
   float: right;
   bottom: 120px;
 }
-html main div .abobutton {
+html main .move .abobutton {
   background-color: rgb(70, 70, 70);
   border-radius: 25px;
   height: 35px;

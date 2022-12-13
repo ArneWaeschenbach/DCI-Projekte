@@ -1,72 +1,77 @@
-html{
-    background-color: black;
+html {
+  background-color: black;
 
+  .olnav {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    bottom: 50px;
+    height: 35px;
 
+    border-bottom-style: solid;
+    border-color: rgb(46, 46, 46);
+    border-bottom-width: 1px;
 
+    div {
+      position: relative;
+    }
 
+    .ol {
+      display: flex;
+      justify-content: space-between;
 
+      li {
+        position: relative;
+        display: inline-block;
+        left: 40px;
 
-
-
-     nav{font-family: sans-serif;
-        ul{
-            display: flex;
-            justify-content: space-between;
-            
-            
-            
-            
-            li{position: relative;
-                display: inline-block;
-                left:40px ;
-                
-                a{
-                    color:lightgray;
-                    text-decoration: none;
-                    font-weight: 530;
-                }
-            }
+        .us {
+          border-bottom-style: solid;
+          border-color: lightgray;
+          border-bottom-width: 3px;
+          display: inline-block;
+          height: 35px;
+          width: 90px;
+        }
+        .ul {
         }
 
+        a {
+          color: lightgray;
+          text-decoration: none;
+          font-weight: 530;
+        }
+      }
+    }
+  }
 
-        
+  .movie {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    row-gap: 100px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    div {
+      position: relative;
+      div {
+        position: absolute;
+        b {
+          color: white;
+          font-weight: 100;
+          p {
+            color: lightgray;
+            font-size: small;
+          }
+        }
+      }
+    }
 
-        
-     }
-
-     .movie{
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 200px);
-         row-gap: 100px;
-         column-gap: 10px;
-         justify-content: center;
-         align-items: center;
-         div{
-            position: relative;
-            div{
-                position: absolute;
-                b{
-                    color: white;
-                    font-weight: 100;
-                    p{
-                        color: lightgray;
-                        font-size: small;
-                    }
-
-                }
-            }
-         }
-
-         
-         
-
-         img{
-            width: 200px;
-            height: 120px;
-            border-radius: 10px;
-         }
-    
-} 
-
-}         
+    img {
+      width: 200px;
+      height: 120px;
+      border-radius: 10px;
+    }
+  }
+}

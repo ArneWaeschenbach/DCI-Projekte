@@ -1,0 +1,61 @@
+html {
+  header {
+    nav {
+      background-color: black;
+
+      ul {
+        justify-content: space-between;
+        display: flex;
+        list-style: none;
+
+        .naveingabe{
+          width: 90%;
+        }
+        div {
+          // pofielbild
+          width: 40px;
+          height: 40px;
+          background-image: url(24.jpg);
+          position: relative;
+          background-position: center;
+          background-size: 80px;
+          border-radius: 50%;
+          right: 50px;
+          top: 5px;
+        }
+      }
+      img {
+        width: 80px;
+        height: 40px;
+      }
+      input::placeholder {
+        display: flex;
+        color: gray;
+      }
+
+      li input {
+        // media 
+        margin-top: 5px;
+        border-radius: 25px;
+        background-color: black;
+        height: 40px;
+        border-color: gray;
+        padding-left: 15px;
+        
+        
+        
+      }
+      li a {
+        color: white;
+
+        display: inline-block;
+        padding: 5px;
+        #BL {
+          display: inline-block;
+          position: relative;
+          left: 50px;
+        }
+      }
+    }
+  }
+}

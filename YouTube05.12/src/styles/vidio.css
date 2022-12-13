@@ -1,19 +1,37 @@
 html {
   background-color: black;
 }
-html nav {
-  font-family: sans-serif;
+html .olnav {
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  bottom: 50px;
+  height: 35px;
+  border-bottom-style: solid;
+  border-color: rgb(46, 46, 46);
+  border-bottom-width: 1px;
 }
-html nav ul {
+html .olnav div {
+  position: relative;
+}
+html .olnav .ol {
   display: flex;
   justify-content: space-between;
 }
-html nav ul li {
+html .olnav .ol li {
   position: relative;
   display: inline-block;
   left: 40px;
 }
-html nav ul li a {
+html .olnav .ol li .us {
+  border-bottom-style: solid;
+  border-color: lightgray;
+  border-bottom-width: 3px;
+  display: inline-block;
+  height: 35px;
+  width: 90px;
+}
+html .olnav .ol li a {
   color: lightgray;
   text-decoration: none;
   font-weight: 530;
