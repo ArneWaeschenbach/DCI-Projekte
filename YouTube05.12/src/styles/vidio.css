@@ -37,6 +37,8 @@ html .olnav .ol li a {
   font-weight: 530;
 }
 html .movie {
+  margin-left: 10%;
+  margin-right: 10%;
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);

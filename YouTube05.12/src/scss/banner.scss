@@ -27,11 +27,15 @@ html {
         bottom: 4rem;
 
         li {
+          font-weight: 100;
+          font-size: small;
           list-style: none;
-          color: lightgray;
+          color: rgb(150, 149, 149);
 
           h1 {
             color: white;
+            font-size: x-large;
+            font-weight: 500;
           }
         }
       }
@@ -41,11 +45,13 @@ html {
         bottom: 120px;
       }
       .abobutton {
-        background-color: rgb(70, 70, 70);
+        background-color: rgb(47, 47, 47);
         border-radius: 25px;
+        border-style: none;
         height: 35px;
         width: 100px;
         color: lightgray;
+
       }
     }
   }

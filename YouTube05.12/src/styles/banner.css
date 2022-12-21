@@ -23,11 +23,15 @@ html main .move .daten {
   bottom: 4rem;
 }
 html main .move .daten li {
+  font-weight: 100;
+  font-size: small;
   list-style: none;
-  color: lightgray;
+  color: rgb(150, 149, 149);
 }
 html main .move .daten li h1 {
   color: white;
+  font-size: x-large;
+  font-weight: 500;
 }
 html main .move .abo {
   position: relative;
@@ -35,8 +39,9 @@ html main .move .abo {
   bottom: 120px;
 }
 html main .move .abobutton {
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(47, 47, 47);
   border-radius: 25px;
+  border-style: none;
   height: 35px;
   width: 100px;
   color: lightgray;

@@ -1,4 +1,4 @@
-section .sidebar {
+.sidebar {
   z-index: 2;
   position: absolute;
   left: -250px;
@@ -6,7 +6,7 @@ section .sidebar {
   height: 100%;
   background-color: black;
 }
-section .sidebar ul li {
+.sidebar ul li {
   display: block;
   height: 100%;
   width: 100%;
